@@ -63,7 +63,7 @@ header a:hover {
     font-weight: bold;
     transition: 0.3s;
     width: 200px;
-    margin-left: 750px;
+    margin-left: 50%;
 }
 
 .btn:hover {
