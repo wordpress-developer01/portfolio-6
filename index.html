@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/img/projects/Снимок%20экрана%202025-04-17%20в%2016.59.28.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>LOGO</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="about">About</a></li>
+            <li><a href="skills">Skills</a></li>
+            <li><a id="" href="#projects">projects</a></li>
+            <li><a href="contact">contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <h1>Hi, I'm Muratbek</h1>
+        <p>A full-stack web developer</p>
+        <a href="#contact" class="btn">Let's work together</a>
+    </section>
+
+    <div>
+        <section id="gallery">
+            <h2>My Work</h2>
+
+            <div id="image-slider" class="splide">
+                <div id="projects" class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="assets/img/projects/01-big.jpg" alt="1"></li>
+                        <li class="splide__slide"><img src="assets/img/projects/02-big.jpg" alt="2"></li>
+                        <li class="splide__slide"><img src="assets/img/projects/03-big.jpg" alt="3"></li>
+                        <li class="splide__slide"><img src="assets/img/projects/04-big.jpg" alt="4"></li>
+                        <li class="splide__slide"><img src="assets/img/projects/05-big.jpg" alt="5"></li>
+                        <li class="splide__slide"><img src="assets/img/projects/06-big.jpg" alt="6"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Let's work together</h2><br>
+            <div id="contact-form">
+                <form action="about.php" method="POST">
+                    <input type="text" name="name" placeholder="Name" required><br>
+                    <input type="email" name="email" placeholder="Email" required><br>
+                    <textarea class="message" name="message" placeholder="Message" required></textarea><br>
+                    <button class="btm" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3/dist/js/splide.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
